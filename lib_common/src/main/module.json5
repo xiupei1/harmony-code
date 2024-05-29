@@ -1,0 +1,28 @@
+{
+  "module": {
+    "name": "lib_common",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "lib_common",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "lib_common",
+        "srcEntry": "./ets/lib_common/lib_common.ets",
+        "description": "$string:lib_common_desc",
+        "icon": "$media:icon",
+        "label": "$string:lib_common_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}
